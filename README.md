@@ -29,7 +29,7 @@ The iPython notebooks can be used to extract data from Google Earth Engine and r
 ## Acknowledgements
 
 ### Globe-LFMC dataset
-Yebra, M., Scortechini, G., Badi, A., Beget, M. E., Boer, M. M., Bradstock, R. A., Chuvieco, E., Danson, F. M., Dennison, P. E., Resco de Dios, V., Di Bella, C. M., Forsyth, G., Frost, P., García, M., Hamdi, A., He, B., Jolly, M., Kraaij, T., Martín, M. P., … Ustin, S. (2019). Globe-LFMC, a global plant water status database for vegetation ecophysiology and wildfire applications. Scientific Data, 6(1), 155. https://doi.org/10.1038/s41597-019-0164-9
+Yebra, M., Scortechini, G., Badi, A., Beget, M. E., Boer, M. M., Bradstock, R. R. A. B., Chuvieco, E., Danson, M., Dennison, P., de Dios, V. R., Di Bella, C. M., Forsyth, G., Frost, P., Garcia, M., Hamdi, A., He, B., Jolly, M., Kraaij, T., Martin, M. P., … Ustin, L.. (2019). Globe-LFMC, a global plant water status database for vegetation ecophysiology and wildfire applications (Version 2). figshare. https://doi.org/10.6084/m9.figshare.c.4526810.v2 ([]) 
 
 ### Google Earth Engine Data
 1. Google Earth Engine: Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment.
