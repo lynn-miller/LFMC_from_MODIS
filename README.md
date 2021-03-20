@@ -24,7 +24,7 @@ The iPython notebooks can be used to extract data from Google Earth Engine and r
 
 ## Contributors
 1. Lynn Miller: https://github.com/lynn-miller
-2. Luijun Zhu: https://github.com/rszlj
+2. Liujun Zhu: https://github.com/rszlj
 
 ## Acknowledgements
 
