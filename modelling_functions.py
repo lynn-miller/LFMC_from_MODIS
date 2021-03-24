@@ -379,7 +379,7 @@ def run_kfold_model(model_params, samples, X, y):
         
     all_results = models[0].all_results
     for model in models[1:]:
-        all_results = all_results.append(models[fold].all_results)
+        all_results = all_results.append(model.all_results)
     all_results.to_csv(model_dir + 'predictions.csv')
     models.all_results = all_results
 
@@ -454,7 +454,7 @@ def run_test(model_params, samples, X, y):
                     data = train_test_split(run_params, samples, X, y)
                 model = train_test_model(run_params, **data)
                 model.clear_model()
-                plot_all_results(model.all_results, model.all_stats, model_dir)
+                plot_all_results(model.all_results, model.all_stats, run_params['modelDir'])
                 models.append(model)
             else:
                 models.append(run_kfold_model(run_params, samples, X, y))

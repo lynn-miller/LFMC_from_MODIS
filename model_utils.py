@@ -2,6 +2,7 @@
 
 import random
 import numpy as np
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
@@ -554,5 +555,5 @@ def plot_all_results(all_results, all_stats, model_dir):
     """
     for y in all_results.columns[1:]:
         fig = plot_results(f'{y} Results', all_results.y, all_results[y], all_stats.loc[y])
-        fig.savefig(model_dir + y + '.png', dpi=300)
+        fig.savefig(os.path.join(model_dir, y + '.png'), dpi=300)
         plt.close(fig)
