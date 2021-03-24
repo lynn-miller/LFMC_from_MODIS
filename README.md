@@ -1,7 +1,7 @@
 # LFMC_from_MODIS
 Live fuel moisture content estimation from MODIS: a deep learning approach
 
-This code reproduces the results in the paper. It uses Google Earth Engine as the data source, which saves downloading and pre-processing large volumes of MODIS reflectance data. Due to this, and different random variable seed settings, the results will differ slightly from those shown in the paper, but should be broadly similar.
+This code reproduces the results in the paper. It uses Google Earth Engine as the data source, which saves downloading and pre-processing large volumes of MODIS reflectance data. This data requires different pre-processing, resulting in the extraction of more sites (924 instead of 880) and samples (65663 instead of 58433). Due to this, and different random variable seed settings, the results will differ slightly from those shown in the paper, but should be broadly similar.
 
 ## Data
 Four data sources are used:
