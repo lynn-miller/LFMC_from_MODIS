@@ -21,7 +21,10 @@ def _stratify_sites(data, split_col, stratify, min_sites):
     lc = sites.groupby(['stratify'], as_index=False).agg(counts=(split_col, 'count'))
     # Group landcover classes with fewer than min_sites sites into one group
     lc = lc.stratify[lc.counts < min_sites]
-    sites.loc[sites.stratify.isin(lc), 'stratify'] = 0
+    if pd.api.types.is_numeric_dtype(sites.stratify):  # Stratify values are numeric
+        sites.loc[sites.stratify.isin(lc), 'stratify'] = -99
+    else:  # Stratify values are strings
+        sites.loc[sites.stratify.isin(lc), 'stratify'] = '@#$%'
     # Return the stratified sites
     return sites
     
