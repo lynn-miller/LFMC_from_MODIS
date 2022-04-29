@@ -3,7 +3,7 @@ message: "If you use this software, please cite both the article from preferred-
 authors:
 - family-names: "Miller"
   given-names: "Lynn"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  orcid: "https://orcid.org/0000-0001-9899-9059"
 - family-names: "Zhu"
   given-names: "Liujun"
 title: "LFMC_from_MODIS"
